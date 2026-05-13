@@ -26,5 +26,8 @@
     "hexo-server": "^3.0.0",
     "serve": "^14.2.0",
     "hexo-theme-landscape": "^1.0.0"
+  },
+  "overrides": {
+    "strip-ansi": "^6.0.0"
   }
 }
