@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "start": "hexo server -p ${PORT:-4000}",
+    "start": "hexo generate && serve -l ${PORT:-4000} public",
     "server": "hexo server"
   },
   "hexo": {
@@ -24,6 +24,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
+    "serve": "^14.2.0",
     "hexo-theme-landscape": "^1.0.0"
   }
 }
