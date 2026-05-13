@@ -104,4 +104,4 @@ theme: butterfly
 deploy:
   type: 'git'
   repo: 'git@github.com:Mxiaocao/blog.git'
-  branch: 'main'
+  branch: 'static'
