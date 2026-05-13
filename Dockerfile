@@ -7,6 +7,8 @@ RUN npm install
 
 COPY . .
 
+RUN npx hexo generate
+
 EXPOSE 4000
 
-CMD npm start
+CMD node server.js
